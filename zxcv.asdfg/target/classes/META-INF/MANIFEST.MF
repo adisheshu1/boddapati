@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1629811243083
+Build-Jdk: 11.0.11
+Built-By: root
+Bundle-Description: Combine multiple EIPs into a single solution
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Fabric8 :: Quickstarts :: Enterprise Integration Patterns
+Bundle-SymbolicName: asdfg.zxcv.asdfg
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: asdfg.war;uses:="org.apache.camel.language";version="1.0
+ .0.SNAPSHOT"
+Import-Package: org.apache.camel.language;version="[2.13,3)",org.osgi.se
+ rvice.blueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0
